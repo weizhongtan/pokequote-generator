@@ -1,0 +1,122 @@
+html, body {
+  height: 100%;
+  background-image: -webkit-linear-gradient(top, #FFC814, #FAFF78);
+  font-family: 'Muli', sans-serif;
+  overflow: hidden;
+}
+
+p {
+  font-size: 2.5vmin;
+  font-weight: bold;
+  color: white;
+}
+
+.centered {
+  position: fixed;
+  top: 10vh;
+  left: 50vw;
+  transform: translate(-50%, 0);
+}
+
+h1 {
+  font-size: 5vmin;
+}
+
+.title {
+  padding-bottom: 1vh;
+}
+
+#quote1, #quote2 {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 3vh;
+  padding: 1em;
+  width: 60vw;
+  border-radius: 2em;
+  border: solid 2px;
+  background-color: #5E5E5E;
+}
+
+#tweet {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 190%);
+  font-weight: normal;
+  color: black;
+  text-decoration: none;
+  
+}
+
+#tweet:hover, #tweet:active {
+  color: weight;
+  font-weight: bold;
+}
+
+.button {
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  padding: 1em;
+  background-image: url(http://goo.gl/6pNKT5);
+  background-size: 30vmin;
+  height: 30vmin;
+  width: 30vmin;
+  border-radius: 50%;
+  border: solid 1px #80ab5d;
+  box-shadow: 
+		0px 2px 2px rgba(255,255,255,0.8) inset, 
+		2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.button:hover {
+  -webkit-transform: scale(1.15) rotate(10deg);
+  transform: scale(1.15) rotate(10deg);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.button:active {
+  transform: scale(1.1);
+}
+
+.button:focus {
+  outline: 0;
+}
+
+.pikachu {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  width: 25vmin;
+}
+
+.pikachu:hover {
+  -webkit-transform: scale(1.15) rotate(-10deg);
+  transform: scale(1.15) rotate(-10deg);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+div.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 20px;
+  background: inherit;
+  box-shadow: 0px -2px 5px #0C090A;
+}
+
+a.footer {
+  text-decoration: none;
+  color: white;
+}
