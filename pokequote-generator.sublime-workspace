@@ -20,28 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/main.js",
+			"file": "main.js",
 			"settings":
 			{
 				"buffer_size": 5887,
-				"line_ending": "Windows",
-				"name": "// RANDOM QUOTE GENERATOR"
-			}
-		},
-		{
-			"file": "/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/css.css",
-			"settings":
-			{
-				"buffer_size": 2318,
-				"line_ending": "Windows",
-				"name": "html, body {"
-			}
-		},
-		{
-			"file": "/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/index.html",
-			"settings":
-			{
-				"buffer_size": 1463,
 				"line_ending": "Windows"
 			}
 		}
@@ -214,10 +196,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator"
+		"/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator",
+		"/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/pokequote-generator"
 	],
 	"file_history":
 	[
+		"/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/pokequote-generator/pokequote-generator.sublime-project",
+		"/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/index.html",
+		"/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/css.css",
+		"/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/main.js",
 		"/C/Users/Wei-Zhong/Documents/GitHub/pong-js/pong.html",
 		"/C/Users/Wei-Zhong/Desktop/main.cpp",
 		"/C/Users/Wei-Zhong/AppData/Local/Spotify/Users/kingwayz-user/abba.json",
@@ -332,6 +319,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"’",
 			"\\",
 			"url",
 			"medium",
@@ -394,12 +382,12 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/main.js",
+					"file": "main.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -410,82 +398,21 @@
 						"selection":
 						[
 							[
-								282,
-								282
+								5673,
+								5673
 							]
 						],
 						"settings":
 						{
-							"auto_name": "// RANDOM QUOTE GENERATOR",
 							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JavaScriptNext.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/css.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2318,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								217,
-								217
-							]
-						],
-						"settings":
-						{
-							"auto_name": "html, body {",
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2016.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/Users/Wei-Zhong/Documents/GitHub/Pokemon Quote Generator/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1463,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								365,
-								365
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
